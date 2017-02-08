@@ -22,9 +22,10 @@
 
     </LinearLayout>
 
-     +<LinearLayout
+     <LinearLayout
          android:layout_width="match_parent"
-    android:layout_height="50dp"></LinearLayout>
+        android:layout_height="30dp">
+     </LinearLayout>
 
 
     <LinearLayout
@@ -65,11 +66,10 @@
 
         <View
             android:layout_width="match_parent"
-            android:layout_height="1dp"
             android:layout_marginLeft="50dp"
             android:layout_marginRight="50dp"
             android:background="#fff"
-            />
+            android:layout_height="1dp" />
 
 
 
@@ -113,18 +113,19 @@
     </LinearLayout>
 
     <customfonts.MyTextView
-        android:layout_width="130dp"
+        android:layout_width="350dp"
         android:layout_height="wrap_content"
 
-        android:text="Sign In"
+        android:text="MASUK"
         android:textSize="16dp"
         android:textColor="#fff"
         android:textAlignment="center"
-        android:background="@drawable/border"
+        android:background="@drawable/btn_masuk"
         android:layout_gravity="center"
         android:letterSpacing="0.025"
         android:padding="10dp"
-        android:layout_marginTop="60dp" />
+        android:layout_marginTop="30dp"
+        android:clickable="true" />
 
 
 
@@ -140,29 +141,29 @@
         <customfonts.MyTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Don't have an account?"
+            android:text="Lupa Password ?"
             android:textColor="#fff"
             android:letterSpacing="0.025"
             android:textSize="14dp"
             />
-        <customfonts.MyTextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Sign up"
-            android:textSize="14dp"
-            android:textColor="#fff"
-            android:letterSpacing="0.025"
-            android:textStyle="bold"
-            android:layout_marginLeft="5dp"/>
-
-
-
-
 
 
     </LinearLayout>
 
+    <customfonts.MyTextView
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
 
+        android:text="DAFTAR"
+        android:textSize="16dp"
+        android:textColor="#fff"
+        android:textAlignment="center"
+        android:background="@drawable/btn_daftar"
+        android:layout_gravity="center"
+        android:letterSpacing="0.025"
+        android:padding="10dp"
+        android:layout_marginTop="30dp"
+        android:clickable="true" />
 
 
 </LinearLayout>
