@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
     android:id="@+id/activity_home"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -10,9 +11,10 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="wolfsoft.natural_login.HomeActivity">
 
-    <searchable xmlns:android="http://schemas.android.com/apk/res/android"
-        android:label="@string/app_label"
-        android:hint="@string/search_hint" >
-    </searchable>
+    <SearchView
+        android:id="@+id/search_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </SearchView>
 
-</RelativeLayout>
+</LinearLayout>
