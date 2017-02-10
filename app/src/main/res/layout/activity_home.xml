@@ -11,8 +11,10 @@
     tools:context="wolfsoft.natural_login.HomeActivity">
 
     <searchable xmlns:android="http://schemas.android.com/apk/res/android"
-        android:label="@string/app_label"
-        android:hint="@string/search_hint" >
+        android:label="Thumbase"
+        android:hint="Serach"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
     </searchable>
 
 </RelativeLayout>
